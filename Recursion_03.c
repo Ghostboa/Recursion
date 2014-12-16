@@ -5,9 +5,14 @@
 #include <iostream>
 
 /*
-5.	Write a function to count the number of multiples of m between a and b in an array of integers A.
-Where b >=a, and a, b, and m are all whole numbers.
-NOTE that the multiples are between the whole numbers a and b … a and b are not indices in the array.
+3.	A sequence is defined by the following recurrence relation:
+t[n] = *t[n-1] - b*t[n-2] + c*t[n-3] - d*t[n-4] + e
+and the base case:
+t[1] = w
+t[2] = x
+t[3] = y
+t[4] = z
+Write a function to determine the nth term in such a sequence.
 */
 
 int (){
