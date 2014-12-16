@@ -10,16 +10,14 @@ NOTE that the multiples are between the whole numbers a and b … a and b are not 
 */
 
 
-int findMults (int hi, int lo, ){
-    //input euclids when lower here
-
+int findMults (int a, int b, int m, int A [80]){
     if (str[0] == 0)
         return 0;
 //ask Remi why using multiple ifs is better
     else if ()
-        return (1+(findMults(parameters)))
+        return (1+(findMults(lo, hi, )))
     else
-        return (findmults)
+        return (findmults(parameters))
 
 }
 
