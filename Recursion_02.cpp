@@ -19,10 +19,11 @@ Write a function to determine t[n] given n.
 //number of calls may be off
 int calculate (int n, int a, int b, int c){
     //printf ("%i, %i, %i, %i\n", n, a, b, c);
-    if (n == 1)
+    if (n == 1) {
         return (7*a - 4 * b - 9 * c);
-    else
+    } else {
         return calculate (n-1, (7*a - 4 * b - 9 * c), a, b) ;
+    }
 }
 
 

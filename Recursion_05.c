@@ -28,4 +28,3 @@ int main (){
     }
   //  scanf
 //printf ("Number of mults:\t%i\n", findMults(multiple))
-}
